@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Merriweather:ital,wght@0,300;1,300;1,700&family=Montserrat:wght@300;400;500;700&family=Poppins:wght@400;500;700&family=Signika&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #3a86ff;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width:15cm;
+    margin-left: 35%;
+    margin-top: 5%;
+    font-size: 25px;
+    color:#ffbe0b;
+    -webkit-text-stroke: 2.5px white;
+}
+.main{
+    width: 220px;
+    display: grid;
+    grid-template-columns: repeat(3,70px);
+    grid-template-rows: repeat(3,70px);
+    gap:6px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.div{
+    background-color: white;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 2px;
+}
+.made{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    margin-left: 46.5%;
+    margin-top: 5%;
+    font-size: 19px;
+}
